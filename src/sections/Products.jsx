@@ -4,8 +4,7 @@ function ProductsSection() {
   return (
     <div id="products" className="px-12 md:px-32 dark:text-white">
       <h2
-        className="mb-8 capitalize text-center e font-bold text-[40px] md:text-[46px]"
-        style={{ textAlign: "left" }}
+        className="mb-8 capitalize text-center lg:text-left md:text-left font-bold text-[40px] md:text-[46px] "
       >
         Product
       </h2>
@@ -20,10 +19,10 @@ function ProductsSection() {
               Try IzzyAI <Arrow />
             </a>
           </div>
-          <p className="text-xl font-semibold mt-4">
+          <p className="text-xl font-bold mt-4 text-center lg:text-left md:text-left">
             Your Personal Digital Speech Therapy Companion
           </p>
-          <p className="text-left  text-[12px]  tracking-lighter lg:text-left md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-lighter">
+          <p className="text-center  text-[15.5px]  tracking-lighter lg:text-left md:text-[14px] lg:text-[15.5px] mt-6 lg:tracking-lighter">
             Begin your journey with IzzyAI’s comprehensive assessment, powered
             by advanced AI models. These initial evaluations accurately identify
             your speech patterns, pinpointing areas for improvement. This

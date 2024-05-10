@@ -15,8 +15,8 @@ function DirectorsSection() {
 
   return (
     <div id="team" className="px-10 md:px-32 mt-32 dark:text-white">
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-[36px] leading-9 md:leading-none md:text-[40px] font-bold">
+      <div className=" justify-between items-center mb-6 text-center lg:text-left md:text-left">
+        <h2 className="text-[36px] leading-9 md:leading-none md:text-[40px] font-bold ">
           Team
         </h2>
       </div>
@@ -24,8 +24,10 @@ function DirectorsSection() {
       <div className="grid grid-col-2 md:grid-cols-3 gap-6 text-center md:text-left">
         <div>
           <img
-            className="object-contain rounded-md w-full h-[409px] "
+            className="object-contain rounded-md w-full h-[409px] no-right-click selectDisable"
+            draggable= "false"
             src={dark ? "director2-dark.jpg" : "director2-white.jpg"}
+            
           />
           <h2 className="text-[28px] md:text-[32px] leading-[40px] font-bold mt-[24px]">
             Syed Ali
@@ -34,7 +36,8 @@ function DirectorsSection() {
         </div>
         <div>
           <img
-            className="object-contain w-full h-[409px] rounded-md"
+            className="object-contain w-full h-[409px] rounded-md no-right-click selectDisable "
+            draggable= "false"
             src={dark ? "team1-dark.jpg" : "team1-white.jpg"}
           />
           <h2 className="text-[28px] md:text-[32px] leading-[40px] font-bold mt-[24px]">
@@ -44,7 +47,8 @@ function DirectorsSection() {
         </div>
         <div>
           <img
-            className="object-contain w-full rounded-md h-[409px]"
+            className="object-contain w-full rounded-md h-[409px] no-right-click selectDisable"
+            draggable="false"
             src={dark ? "cto-dark.jpg" : "cto-light.jpg"}
           />
 
@@ -56,7 +60,8 @@ function DirectorsSection() {
 
         <div>
           <img
-            className="object-contain w-full h-[409px] rounded-md"
+            className="object-contain w-full h-[409px] rounded-md no-right-click selectDisable"
+            draggable = "false"
             src={dark ? "team2-dark.jpg" : "team2-white.jpg"}
           />
           <h2 className="text-[28px] md:text-[32px] leading-[40px] font-bold mt-[24px]">
@@ -66,7 +71,8 @@ function DirectorsSection() {
         </div>
         <div>
           <img
-            className="object-contain w-full h-[409px] rounded-md"
+            className="object-contain w-full h-[409px] rounded-md no-right-click selectDisable"
+            draggable = "false"
             src={dark ? "team3-dark.jpg" : "team3-white.jpg"}
           />
           <h2 className="text-[28px] md:text-[32px] leading-[40px] font-bold mt-[24px]">
@@ -78,7 +84,8 @@ function DirectorsSection() {
         </div>
         <div>
           <img
-            className="object-contain w-full h-[409px] rounded-md"
+            className="object-contain w-full h-[409px] rounded-md no-right-click selectDisable"
+            draggable = "false"
             src={dark ? "team4-dark.jpg" : "team4-white.jpg"}
           />
           <h2 className="text-[28px] md:text-[32px] leading-[40px] font-bold mt-[24px]">

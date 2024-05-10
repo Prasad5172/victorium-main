@@ -5,6 +5,7 @@ import ChevronDownIcon from "../Assets/ChevronDown";
 import DropdownLink from "../components/InfoBoxFunctional";
 
 const TealArrow = () => {
+  var width = window.innerWidth;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

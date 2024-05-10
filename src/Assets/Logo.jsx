@@ -1,7 +1,8 @@
 const NavbarLogo = () => {
+  var width = window.innerWidth;
   return (
     <svg
-      width="285"
+      width={`${width > 330 ? "285":"210"}`}
       height="52"
       viewBox="0 0 285 52"
       fill="none"
