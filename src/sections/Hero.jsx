@@ -33,7 +33,7 @@ function HeroSection() {
 
   return (
     <a
-      className="w-full text-center p-5 bg-hero-image min-h-[100vh] bg-cover bg-center flex flex-col justify-center items-center"
+      className="w-full text-center p-5 bg-hero-image bg-fixed min-h-[100vh] bg-cover bg-center flex flex-col justify-center items-center"
       style={{
         backgroundImage:
           "linear-gradient(0deg, rgba(17, 25, 32, 0.64) 0%, rgba(17, 25, 32, 0.64) 100%), url('/hero_background.png')",

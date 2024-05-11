@@ -37,7 +37,7 @@ const FaqItem = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-2 border-[#212A31] dark:border-[#212A31] rounded-md">
+    <div className="border-2 border-[#212A31] dark:border-[#212A31] rounded-md" data-aos="fade-left">
       <button
         className="flex justify-between items-center w-full py-5 px-6 text-center"
         onClick={() => setIsOpen(!isOpen)}
@@ -108,7 +108,7 @@ const FaqItem = ({ faq }) => {
 
 const FaqComponent = () => {
   return (
-    <div className="" id="Faq">
+    <div className="overflow-x-hidden" id="Faq">
       <div className=" p-0 md:p-0 sm:p-0 lg:p-6">
         <div className="mb-[32px] md:flex justify-between items-center ">
           <h2 className="text-[32px] md:text-[40px] leading-[40px] text-[#111920] dark:text-white font-semibold text-center md:text-start lg:text-start  ">
