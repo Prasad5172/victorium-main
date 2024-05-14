@@ -27,7 +27,7 @@ function DirectorsSection() {
         </h2>
       </div>
 
-      <div   className="grid grid-col-2 md:grid-cols-3 gap-6 text-center md:text-left overflow-x-hidden">
+      <div   className="grid grid-col-2 md:grid-cols-3 gap-6 text-center md:text-left overflow-x-hidden overflow-y-hidden">
         <div className="flex flex-col items-center" >
           
           <img

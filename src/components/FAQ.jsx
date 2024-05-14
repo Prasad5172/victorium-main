@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Button from "./Button";
+
 
 const faqs = [
   {
@@ -35,6 +36,8 @@ const faqs = [
 
 const FaqItem = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+ 
 
   return (
     <div className="border-2 border-[#212A31] dark:border-[#212A31] rounded-md" data-aos="fade-left">

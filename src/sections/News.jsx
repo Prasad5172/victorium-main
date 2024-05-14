@@ -23,7 +23,7 @@ function NewsSection() {
 
       // Apply opacity and translation to content
       contentRef.current.style.opacity = opacity;
-      contentRef.current.style.transform = `translateX(-${translation}px)`;
+      contentRef.current.style.transform = `translateX(${translation}px)`;
 
       // Apply opacity to image
       imageRef.current.style.opacity = opacity;
@@ -39,16 +39,16 @@ function NewsSection() {
   }, []);
 
   return (
-    <div ref={containerRef} className="px-10 md:px-32 mt-32 text-[#111920] dark:text-white">
-      <div className="items-center mb-6 text-center lg:text-left md:text-left">
+    <div ref={containerRef} className="px-10 md:px-32 mt-32 text-[#111920] dark:text-white overflow-x-hidden">
+      <div className="items-center mb-6 text-center lg:text-left md:text-center">
         <h2 className="text-[36px] md:text-[40px] leading-9 md:leading-normal font-bold " ref={headingRef}>
           Latest News
         </h2>
       </div>
 
       <div className="grid  space-x-6 grid-col-1 md:grid-cols-1 lg:grid-cols-2 text-center md:text-left">
-        <div className="md:justify-start justify-center inline-flex items-center ">
-          <div className="flex justify-start">
+        <div className="md:justify-center  justify-center lg:justify-start xl:justify-start 2xl:justify-start inline-flex items-center ">
+          <div className="flex justify-start ">
             <img
               ref={imageRef}
               className="object-cover rounded h-[300px] w-full"

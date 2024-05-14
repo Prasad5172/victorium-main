@@ -32,7 +32,7 @@ function HeroSection() {
   });
 
   return (
-    <a
+    <div
       className="w-full text-center p-5 bg-hero-image bg-fixed min-h-[100vh] bg-cover bg-center flex flex-col justify-center items-center"
       style={{
         backgroundImage:
@@ -50,7 +50,7 @@ function HeroSection() {
       <p className="max-w-3xl text-center text-xl text-white mt-2">
         Providing a range of AI-driven solutions tailored to meet the diverse needs of its clients. By leveraging AI algorithms and data-driven insights, Victoriam provides impactful solutions to propagate creativity and enhance accessibility.
       </p>
-    </a>
+    </div>
   );
 }
 
